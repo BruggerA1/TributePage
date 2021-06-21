@@ -1,9 +1,10 @@
 h1 {
-  font-size: 48pt;
+  font-size: 60pt;
+  margin: -10px;
 }
 
 p {
-  font-size: 18px;
+  font-size: 18pt;
 }
 
 ul {
@@ -14,6 +15,7 @@ ul {
 li {
   padding: 8px;
 }
+
 
 footer {
   font-size: 14px;
@@ -28,26 +30,30 @@ footer {
 
 #main {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: lightseagreen;
+  background-color: #666BFF;
   color: #ffffff;
 }
 
 #description {
-  font-size: 18pt;
+  font-size: 22pt;
+  margin: 20px;
 }
 
 #img-div {
-  background-color: lightcoral;
+  background-color: #FF8380;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 16pt;
   padding: 3%;
   border: 2px solid white;
+  border-radius: 25px;
+  box-shadow: 1px 1px 10px #000000;
+
 }
 
 #img-div img {
-  border: 4px solid lightseagreen;
+  border: 4px solid #666BFF;
   border-radius: 250px;
   width: 100%;
   max-width: 600px;
@@ -65,10 +71,16 @@ footer {
   font-size: 18px;
   text-align: justify;
   border: 1px solid white;
+  box-shadow: 1px 1px 10px #000000;
+  border-radius: 15px;
 }
 
 #info-title {
-  font-size: 24pt;
+  font-size: 30pt;
+}
+
+#img-caption{
+  font-size: 22pt;
 }
 
 #img-caption,
@@ -81,5 +93,5 @@ footer {
 }
 
 #info-timeline {
-  padding: 0 5% 3% 5%;
+  padding: 0% 5% 2% 5%;
 }
